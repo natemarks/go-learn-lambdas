@@ -11,11 +11,23 @@ Implement security best practices
 Check out tracing
 
 
+## TODO
+~~First I need  a lambda to poke at.  Copy the AWS go-blank example~~
+
+Script deployment and teardown  using Terraform
+Then I want to be able to manually get stuff into it and out of it
+The automate that 
+
+Then figure out how to test it locally
+Then use cloudwatch logging
+
 ## Reference
 
 [Best tools for serverless observability](https://www.serverless.com/blog/best-tools-serverless-observability)
 
 [AWS blank-go: A sample Go lambda project](https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/blank-go)
+
+[go /lambda/terraform example](https://dev.to/esenac/deploy-an-aws-lambda-function-in-go-with-terraform-12ap)
 
 [Testing Lambdas Locally](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-debugging.html)
 
