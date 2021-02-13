@@ -1,5 +1,5 @@
 
-Trying to figure out what makes s good lambda deplloyment
+Trying to figure out what makes s good lambda deployment
 
 
 ## Experiment Goals: This would be cool if...
