@@ -23,6 +23,8 @@ Then use cloudwatch logging
 
 ## Reference
 
+[Learn about step function state machine](https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-creating-lambda-state-machine.html)
+
 [Best tools for serverless observability](https://www.serverless.com/blog/best-tools-serverless-observability)
 
 [AWS blank-go: A sample Go lambda project](https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/blank-go)
