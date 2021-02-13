@@ -14,9 +14,10 @@ Check out tracing
 ## TODO
 ~~First I need  a lambda to poke at.  Copy the AWS go-blank example~~
 
-Script deployment and teardown  using Terraform
-Then I want to be able to manually get stuff into it and out of it
-The automate that 
+~~Script deployment and teardown  using Terraform~~
+
+Document manual testing tracing debugging
+Figure out how to do  local testing/debugging
 
 Then figure out how to test it locally
 Then use cloudwatch logging
