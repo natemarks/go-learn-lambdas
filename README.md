@@ -4,12 +4,27 @@ Trying to figure out what makes s good lambda deployment
 
 ## Experiment Goals: This would be cool if...
 
-Safely use external public libraries
-fast, easy local testing
-automated integration testing (TF build, test, teardown)
-Implement security best practices
-Check out tracing
+- Safely use external public libraries
+  - node, python, Go
+- fast, easy local testing
+- automated integration testing (TF build, test, teardown)
+- Implement security best practices
+- Check out tracing
+- External services
+  - MySQL,  ongo, etc.
+  - SSO OAuth2 (See above)
+  - Node/npm
 
+## Initial Outcomes/story ideas
+- Deploy a single node entity with REST CRUD API
+  - Swagger documentation
+  - MySQL persistence
+  - React default front end
+  - Semver with build number
+
+## Discussion topics
+- URLs and namespaces
+- Inter lambda calls/messaging
 
 ## TODO
 ~~First I need  a lambda to poke at.  Copy the AWS go-blank example~~
