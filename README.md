@@ -33,6 +33,11 @@ Trying to figure out what makes s good lambda deployment
 
 ~~Script deployment and teardown  using Terraform~~
 
+Understand development environment tools ([SAM CLI](https://youtu.be/FINV-VmCXms)) 
+
+https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html
+
+
 Document manual testing tracing debugging
 Figure out how to do  local testing/debugging
 
@@ -40,6 +45,8 @@ Then figure out how to test it locally
 Then use cloudwatch logging
 
 ## Reference
+
+[Debugging](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-debugging-golang.html)
 
 [Learn about step function state machine](https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-creating-lambda-state-machine.html)
 
