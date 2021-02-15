@@ -11,20 +11,22 @@ Trying to figure out what makes s good lambda deployment
 - Implement security best practices
 - Check out tracing
 - External services
-  - MySQL,  ongo, etc.
+  - MySQL, Mongo, etc.
   - SSO OAuth2 (See above)
   - Node/npm
 
-## Initial Outcomes/story ideas
-- Deploy a single node entity with REST CRUD API
-  - Swagger documentation
+## Initial MVP and story ideas
+- Deploy a single entity node with REST CRUD API
+  - Swagger API documentation?
   - MySQL persistence
   - React default front end
+  - Node REST server    
   - Semver with build number
 
 ## Discussion topics
 - URLs and namespaces
 - Inter lambda calls/messaging
+- Embed lambdas in a VPC?
 
 ## TODO
 ~~First I need  a lambda to poke at.  Copy the AWS go-blank example~~
