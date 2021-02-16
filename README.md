@@ -4,6 +4,7 @@ Trying to figure out what makes s good lambda deployment
 
 ## Experiment Goals: This would be cool if...
 
+- Understand context exception handling and how to use it with tracing and logging
 - Safely use external public libraries
   - node, python, Go
 - fast, easy local testing
