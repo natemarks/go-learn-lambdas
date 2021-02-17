@@ -17,6 +17,9 @@ Trying to figure out what makes s good lambda deployment
   - Node/npm
 
 ## Initial MVP and story ideas
+- run an API request to a public endpoint and log results to splunk
+  - access splunk bearer token from secrets manager
+
 - Deploy a single entity node with REST CRUD API
   - Swagger API documentation?
   - MySQL persistence
