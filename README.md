@@ -50,6 +50,8 @@ Then use cloudwatch logging
 
 ## Reference
 
+(Lambdas vs Containers)[https://www.serverless.com/blog/serverless-faas-vs-containers]
+
 [Debugging](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-debugging-golang.html)
 
 [Learn about step function state machine](https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-creating-lambda-state-machine.html)
