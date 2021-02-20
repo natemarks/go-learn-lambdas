@@ -2,7 +2,7 @@
 Trying to figure out what makes s good lambda deployment
 
 
-I wonder if direct access to persistence is maybe not a thinkg for lambdas.  Perhaps make a databse service that runs in a container to manage connection pooling and all the other robust performance and safety logic, then  have the lambdas use that either by network io or pub/sub?  I'm really cusiour about pub/sub in this case because  you could have multple versions of the DB service servicn versio -specific message queues
+I wonder if direct access to persistence is maybe not a thing for lambdas.  Perhaps make a database service that runs in a container to manage connection pooling and all the other robust performance and safety logic, then  have the lambdas use that either by network io or pub/sub?  I'm really curious about pub/sub in this case because  you could have multiple versions of the DB service service version -specific message queues
 
 ## Experiment Goals: This would be cool if...
 
