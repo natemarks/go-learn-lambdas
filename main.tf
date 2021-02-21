@@ -67,15 +67,14 @@ resource "aws_lambda_function" "this" {
   }
 }
 
-
-resource "aws_cloudwatch_event_rule" "every_one_minute" {
-  name                = "every-one-minute"
-  description         = "Fires every one minutes"
+resource "aws_cloudwatch_event_rule" "this" {
+  name                = "tf_go_blank_every_minute"
+  description         = "Fires tf_go_blank every minute"
   schedule_expression = "rate(1 minute)"
 }
 
 resource "aws_cloudwatch_event_target" "this" {
-  rule      = aws_cloudwatch_event_rule.every_one_minute.name
+  rule      = aws_cloudwatch_event_rule.this.name
   target_id = "lambda"
   arn       = aws_lambda_function.this.arn
 }
@@ -85,5 +84,5 @@ resource "aws_lambda_permission" "this" {
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.this.function_name
   principal     = "events.amazonaws.com"
-  source_arn    = aws_cloudwatch_event_rule.every_one_minute.arn
+  source_arn    = aws_cloudwatch_event_rule.this.arn
 }

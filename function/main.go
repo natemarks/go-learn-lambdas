@@ -41,6 +41,7 @@ func handleRequest(ctx context.Context, event events.SQSEvent) (string, error) {
 	for _, element := range os.Environ() {
 		log.Println(element)
 	}
+	log.Printf("{\"foo\": \"bar\"}")
 	// request context
 	lc, _ := lambdacontext.FromContext(ctx)
 	log.Printf("REQUEST ID: %s", lc.AwsRequestID)
